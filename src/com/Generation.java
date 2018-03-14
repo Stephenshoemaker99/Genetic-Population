@@ -33,4 +33,13 @@ public class Generation {
     public void setGenerationName(String generationName) {
         this.generationName = generationName;
     }
+
+    @Override
+    public String toString() {
+        return "Generation{" +
+                "individuals=" + individuals +
+                ", generationName='" + generationName + '\'' +
+                '}';
+    }
 }
+

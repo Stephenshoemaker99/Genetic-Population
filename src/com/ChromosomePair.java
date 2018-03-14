@@ -65,4 +65,13 @@ public class ChromosomePair {
     public void setChromosomeName(String chromosomeName) {
         this.chromosomeName = chromosomeName;
     }
+
+    @Override
+    public String toString() {
+        return "ChromosomePair{" +
+                "chromosome1=" + chromosome1 +
+                ", chromosome2=" + chromosome2 +
+                ", chromosomeName='" + chromosomeName + '\'' +
+                '}';
+    }
 }

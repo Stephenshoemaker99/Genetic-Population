@@ -35,4 +35,12 @@ public class Individual {
     public void setChromosomePairs(ArrayList<ChromosomePair> chromosomePairs) {
         this.chromosomePairs = chromosomePairs;
     }
+
+    @Override
+    public String toString() {
+        return "Individual{" +
+                "individualName='" + individualName + '\'' +
+                ", chromosomePairs=" + chromosomePairs +
+                '}';
+    }
 }
